@@ -86,7 +86,6 @@ class create_vcf():
             ALT="CNV"
             CN="2"
         
-        print self.outputfilename
         # open output file
         output_file = open(self.outputfilename, 'a')
 
